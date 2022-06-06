@@ -1,1 +1,1 @@
-# restful
+# flask-starter-kit
