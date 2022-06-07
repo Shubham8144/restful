@@ -18,7 +18,7 @@ def create_app(config=DevelopmentConfig):
     blueprint
     """
     from application.api.views.main import api_bp
-    from application.localapp.views.main import main_bp
+    from application.webapp.views.main import main_bp
 
     app.register_blueprint(main_bp)
     app.register_blueprint(api_bp)
