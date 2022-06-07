@@ -1,4 +1,5 @@
 from flask_restful import Api
+
 from .views.main import UserApi, UserByID, api_bp
 
 restserver = Api(api_bp)
